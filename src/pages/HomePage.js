@@ -1,5 +1,4 @@
 import React from "react"; 
-import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
 import "./HomePage.css";
 
@@ -38,13 +37,6 @@ const HomePage = () => {
             Download CV
           </a>
         </div>
-      </section>
-
-      {/* Contact Section */}
-      <section id="contact" className="contact">
-        <h2>Contact Me</h2>
-        <p>Have questions or want to collaborate? Reach out to me!</p>
-        <Link to="/contactme" className="button">Email Me</Link>
       </section>
     </div>
   );
