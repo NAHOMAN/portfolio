@@ -1,0 +1,92 @@
+/* Header Container */
+.header {
+    width: 100%;
+    height: auto;
+    padding: 1rem 5%;
+    background-color: #0f172a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo */
+.logo a {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #ffcc00;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.logo a:hover {
+    color: white;
+}
+
+/* Navigation */
+.nav {
+    display: flex;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;  /* Adds space between menu items */
+    padding-right: 5rem;
+}
+
+.nav ul li {
+    display: inline-block;
+}
+
+.nav ul li a {
+    color: white;
+    font-size: 1.1rem;
+    padding: 8px 15px;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.nav ul li a:hover {
+    color: #ffcc00;
+}
+
+/* Mobile Navigation */
+.menu-toggle {
+    display: none;
+    font-size: 1.8rem;
+    color: white;
+    cursor: pointer;
+}
+
+/* Responsive Navigation */
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+    }
+
+    .nav {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 100%;
+        background: #222;
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    .nav.active {
+        display: flex;
+    }
+
+    .nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .nav ul li {
+        text-align: center;
+    }
+}
