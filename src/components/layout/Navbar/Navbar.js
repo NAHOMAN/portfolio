@@ -40,7 +40,7 @@ const Navbar = () => {
             e.preventDefault();
             scrollToSection('#home');
           }}>
-            Nahom
+            Portfolio
           </a>
         </div>
 
