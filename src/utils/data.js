@@ -46,23 +46,23 @@ export const projects = [
     title: "E-Commerce Platform",
     description: "A responsive e-commerce platform built with React. Features include product catalog, shopping cart, and a seamless checkout experience.",
     image: "/ET-ecommerce-project.jpg",
-    github: "https://github.com/nahom/ecommerce",
+    github: "https://github.com/NAHOMAN/ecommerce",
     demo: "https://ecommerce-demo.com",
     technologies: ["React", "Redux", "Styled Components", "Firebase"]
   },
   {
     title: "Portfolio Website",
     description: "A modern and responsive portfolio website showcasing my projects and skills. Built with React and featuring smooth animations and dark mode support.",
-    image: "/portfolio-project.jpg",
-    github: "https://github.com/nahom/portfolio",
+    image: "/nahom-profile-image.jpg",
+    github: "https://github.com/NAHOMAN/portfolio",
     demo: "https://portfolio-demo.com",
     technologies: ["React", "CSS3", "Framer Motion"]
   },
   {
-    title: " Trading Blog ",
+    title: "Trading Blog",
     description: "NC4x Traders Hub: Your go-to platform for trade insights and inspiration.",
     image: "/nc4x-traders-hub.jpg",
-    github: "https://github.com/nahom/webstack---portfolio-project-react",
+    github: "https://github.com/NAHOMAN/webstack---portfolio-project-react",
     demo: "https://nahoman.github.io/webstack---portfolio-project-react/",
     technologies: ["React", "Firebase"]
   },
@@ -70,9 +70,25 @@ export const projects = [
     title: "Task Management App",
     description: "A clean and intuitive task management application with drag-and-drop functionality, task categories, and progress tracking.",
     image: "/task-manager.jpg",
-    github: "https://github.com/nahom/task-manager",
+    github: "https://github.com/NAHOMAN/task-manager",
     demo: "https://task-manager-demo.com",
     technologies: ["React", "TypeScript", "Tailwind CSS"]
+  },
+  {
+    title: "Movie Search App",
+    description: "A dynamic movie search application that lets users discover and explore films with real-time search and filtering capabilities.",
+    image: "/movie-search.jpg",
+    github: "https://github.com/NAHOMAN/movie-search",
+    demo: "https://movie-search-demo.vercel.app",
+    technologies: ["React", "TMDB API", "CSS Modules"]
+  },
+  {
+    title: "Recipe Finder",
+    description: "An interactive recipe finder app that helps users discover new recipes based on ingredients they have or dietary preferences.",
+    image: "/recipe-finder.jpg",
+    github: "https://github.com/NAHOMAN/recipe-finder",
+    demo: "https://recipe-finder-demo.vercel.app",
+    technologies: ["React", "Context API", "Styled Components"]
   }
 ];
 
