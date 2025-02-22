@@ -9,8 +9,8 @@ export const personalInfo = {
 };
 
 export const socialLinks = {
-  github: "https://github.com/nahom",
-  linkedin: "https://linkedin.com/in/nahom",
+  github: "https://github.com/NAHOMAN",
+  linkedin: "https://www.linkedin.com/in/nahomnigussie-girmay",
   twitter: "https://twitter.com/nahom"
 };
 
