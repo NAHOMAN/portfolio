@@ -17,15 +17,19 @@ const Navbar = () => {
 
   const scrollToSection = (href) => {
     setIsMenuOpen(false);
-    const element = document.querySelector(href);
-    const navbarHeight = 80;
-    const elementPosition = element.getBoundingClientRect().top;
-    const offsetPosition = elementPosition + window.pageYOffset - navbarHeight;
+    const sectionId = href.startsWith('#') ? href : `#${href}`;
+    const element = document.querySelector(sectionId);
+    
+    if (element) {
+      const navbarHeight = 80;
+      const elementPosition = element.getBoundingClientRect().top;
+      const offsetPosition = elementPosition + window.pageYOffset - navbarHeight;
 
-    window.scrollTo({
-      top: offsetPosition,
-      behavior: "smooth"
-    });
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: "smooth"
+      });
+    }
   };
 
   return (
@@ -44,7 +48,7 @@ const Navbar = () => {
           {navLinks.map((item, index) => (
             <a
               key={index}
-              href={item.href}
+              href={`#${item.href.replace('/', '')}`}
               onClick={(e) => {
                 e.preventDefault();
                 scrollToSection(item.href);
