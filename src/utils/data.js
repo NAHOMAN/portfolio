@@ -3,7 +3,7 @@ import { FaCode, FaTools } from 'react-icons/fa';
 export const personalInfo = {
   name: "Nahom Nigussie",
   title: "Frontend Developer",
-  email: "nahomnigussie78@example.com",
+  email: "nahomnigussie78@gmail.com",
   location: "Ethiopia",
   bio: "Frontend Developer passionate about creating beautiful and functional web experiences."
 };
