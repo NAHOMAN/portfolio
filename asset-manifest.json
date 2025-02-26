@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/NAHOMAN/portfolio/static/css/main.af9ca0d3.css",
-    "main.js": "/NAHOMAN/portfolio/static/js/main.49ef72be.js",
-    "static/js/453.1407b060.chunk.js": "/NAHOMAN/portfolio/static/js/453.1407b060.chunk.js",
-    "index.html": "/NAHOMAN/portfolio/index.html",
-    "main.af9ca0d3.css.map": "/NAHOMAN/portfolio/static/css/main.af9ca0d3.css.map",
-    "main.49ef72be.js.map": "/NAHOMAN/portfolio/static/js/main.49ef72be.js.map",
-    "453.1407b060.chunk.js.map": "/NAHOMAN/portfolio/static/js/453.1407b060.chunk.js.map"
+    "main.css": "/portfolio/static/css/main.af9ca0d3.css",
+    "main.js": "/portfolio/static/js/main.eb9a7bc8.js",
+    "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
+    "index.html": "/portfolio/index.html",
+    "main.af9ca0d3.css.map": "/portfolio/static/css/main.af9ca0d3.css.map",
+    "main.eb9a7bc8.js.map": "/portfolio/static/js/main.eb9a7bc8.js.map",
+    "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.af9ca0d3.css",
-    "static/js/main.49ef72be.js"
+    "static/js/main.eb9a7bc8.js"
   ]
 }
