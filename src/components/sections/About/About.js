@@ -15,13 +15,15 @@ const About = () => {
             <h3>My Journey</h3>
             <p>
               Hello! I'm {personalInfo.name}, a passionate Frontend Developer based in {personalInfo.location}. 
-              My journey in web development started when I discovered my love for 
-              creating user-friendly and visually appealing websites.
+              My journey into web development began when I discovered my love for
+              crafting user-friendly and visually appealing websites.
             </p>
             <p>
-              With 2 years of experience in the field, I've had the opportunity to 
-              work on various exciting projects and collaborate with talented people 
-              to create digital products for both business and consumer use.
+            As a recent Software Engineering graduate from ALX,
+            I have been honing my skills in building responsive and dynamic web applications.
+            I thrive on creating seamless digital experiences and enjoy collaborating with like-minded individuals 
+            to bring ideas to life. My goal is to develop beautiful, functional, and impactful web solutions that enhance user interactions.
+            Let’s connect and build something amazing together! 🚀
             </p>
             <p>
               {personalInfo.bio}
