@@ -54,7 +54,7 @@ export const projects = [
     description: "A modern and responsive portfolio website showcasing my projects and skills. Built with React and featuring smooth animations and dark mode support.",
     image: "nahom-profile-image.jpg",
     github: "https://github.com/NAHOMAN/portfolio",
-    demo: "https://portfolio-demo.com",
+    demo: "https://nahoman.github.io/portfolio/",
     technologies: ["React", "CSS3", "Framer Motion"]
   },
   {
