@@ -23,7 +23,6 @@ export const skills = [
       "JavaScript/TypeScript",
       "HTML5 & CSS3",
       "Tailwind CSS",
-      "Redux & Context API",
       "Responsive Design"
     ]
   },
