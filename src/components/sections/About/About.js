@@ -23,10 +23,10 @@ const About = () => {
             I have been honing my skills in building responsive and dynamic web applications.
             I thrive on creating seamless digital experiences and enjoy collaborating with like-minded individuals 
             to bring ideas to life. My goal is to develop beautiful, functional, and impactful web solutions that enhance user interactions.
-            Let’s connect and build something amazing together! 🚀
             </p>
             <p>
               {personalInfo.bio}
+              Let’s connect and build something amazing together! 🚀
             </p>
           </div>
         </div>
