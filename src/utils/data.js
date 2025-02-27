@@ -33,10 +33,9 @@ export const skills = [
     items: [
       "Git & GitHub",
       "VS Code",
-      "Webpack & Vite",
-      "Docker",
-      "Jest & Testing",
-      "Agile/Scrum"
+      "cursor",
+      "Figma",
+      "Canva"
     ]
   }
 ];
