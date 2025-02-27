@@ -45,7 +45,7 @@ export const projects = [
   {
     title: "E-Commerce Platform",
     description: "A responsive e-commerce platform built with React. Features include product catalog, shopping cart, and a seamless checkout experience.",
-    image: "/ET-ecommerce-project.jpg",
+    image: "ET-ecommerce-project.jpg",
     github: "https://github.com/NAHOMAN/ecommerce",
     demo: "https://ecommerce-demo.com",
     technologies: ["React", "Redux", "Styled Components", "Firebase"]
@@ -53,7 +53,7 @@ export const projects = [
   {
     title: "Portfolio Website",
     description: "A modern and responsive portfolio website showcasing my projects and skills. Built with React and featuring smooth animations and dark mode support.",
-    image: "/nahom-profile-image.jpg",
+    image: "nahom-profile-image.jpg",
     github: "https://github.com/NAHOMAN/portfolio",
     demo: "https://portfolio-demo.com",
     technologies: ["React", "CSS3", "Framer Motion"]
@@ -61,7 +61,7 @@ export const projects = [
   {
     title: "Trading Blog",
     description: "NC4x Traders Hub: Your go-to platform for trade insights and inspiration.",
-    image: "/nc4x-traders-hub.jpg",
+    image: "nc4x-traders-hub.jpg",
     github: "https://github.com/NAHOMAN/webstack---portfolio-project-react",
     demo: "https://nahoman.github.io/webstack---portfolio-project-react/",
     technologies: ["React", "Firebase"]
