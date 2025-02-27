@@ -46,7 +46,7 @@ export const projects = [
     image: "ET-ecommerce-project.jpg",
     github: "https://github.com/NAHOMAN/ecommerce",
     demo: "https://ecommerce-demo.com",
-    technologies: ["React", "Redux", "Styled Components", "Firebase"]
+    technologies: ["React", "Firebase"]
   },
   {
     title: "Portfolio Website",
@@ -54,7 +54,7 @@ export const projects = [
     image: "nahom-profile-image.jpg",
     github: "https://github.com/NAHOMAN/portfolio",
     demo: "https://nahoman.github.io/portfolio/",
-    technologies: ["React", "CSS3", "Framer Motion"]
+    technologies: ["React"]
   },
   {
     title: "Trading Blog",
