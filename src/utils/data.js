@@ -63,7 +63,7 @@ export const projects = [
     github: "https://github.com/NAHOMAN/webstack---portfolio-project-react",
     demo: "https://nahoman.github.io/webstack---portfolio-project-react/",
     technologies: ["React", "Firebase"]
-  },
+  },/** 
   {
     title: "Task Management App",
     description: "A clean and intuitive task management application with drag-and-drop functionality, task categories, and progress tracking.",
@@ -88,6 +88,7 @@ export const projects = [
     demo: "https://recipe-finder-demo.vercel.app",
     technologies: ["React", "Context API", "Styled Components"]
   }
+  */
 ];
 
 export const navLinks = [
